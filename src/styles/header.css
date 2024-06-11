@@ -1,0 +1,39 @@
+header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.containerHeader{
+    display: flex;
+    height: 94px;
+    max-width: 1400px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.containerUl{
+    display: flex;
+    gap: 30px;
+}
+
+.optionsHeader{
+    font-family: inter;
+}
+
+.inputHeader{
+    display: flex;
+    gap: 15px;
+}
+
+.inputSearch{
+    border-bottom: 1px solid #000;
+    width: 242px;
+    color: #8C8C8C;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
