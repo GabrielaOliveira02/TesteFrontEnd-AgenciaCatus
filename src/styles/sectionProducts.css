@@ -16,10 +16,14 @@
     display: flex;
     width: 1200px;
     overflow-y: auto;
-
     @media screen and (max-width: 768px) {
         width: 380px;
     }
+}
+
+.listCards::-webkit-scrollbar {
+    width: 0;  
+    height: 0; 
 }
 
 .containerCards{
