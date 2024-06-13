@@ -1,4 +1,18 @@
-/* body{
-    width: 100%;
-    max-width: 1400px;
-} */
+body{
+    font-family: var(--font-inter), sans-serif;
+}
+
+:root{
+    --font-inter:"Inter", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: initial;   
+    border-radius: initial;   
+}
+
+::-webkit-scrollbar-track {
+    background: initial;  
+} 

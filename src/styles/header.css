@@ -2,6 +2,7 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: #EEEEEE;
 }
 
 .containerHeader{
@@ -11,18 +12,81 @@ header{
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
+    padding: 0px 40px;
+    @media screen and (max-width: 768px){
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
 }
+
+
+
+@keyframes animation {
+    from{
+        transform: translateY(-4%);
+
+    } 
+
+    to{
+        transform: translatey(0%);
+    }
+}
+
+.animationMenu{
+    @media screen and (max-width: 768px){
+        z-index: 1;
+        animation-name: animation;
+        animation-duration: 0.5s;
+    }
+}
+
+
 
 .containerUl{
-    display: flex;
+    display: none;
     gap: 30px;
+    padding: 20px;
+    @media screen and (max-width: 768px){
+        display: none; 
+        position: absolute;
+        flex-direction: column;
+        background-color:#EEEEEE;
+        border-radius: 4px;
+        right: 5px;
+        top: 80px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    } 
 }
+
+
+
+.btn-mobile{
+    margin-left: 26px;
+    position: absolute;
+    top: 53px;
+    right: 22px;
+    cursor: pointer;
+    @media screen and (min-width: 768px){
+        display: none;
+        
+    }
+} 
+
+
 
 .optionsHeader{
-    font-family: inter;
+    font-family: inherit;
+    color:#000;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 21.78px;
+    transition: transform 0.3s ease;
+    display: inline-block;
 }
-
+.optionsHeader:hover{
+    transform: scale(1.2);
+}
 .inputHeader{
     display: flex;
     gap: 15px;
@@ -30,10 +94,23 @@ header{
 
 .inputSearch{
     border-bottom: 1px solid #000;
-    width: 242px;
+    width: 100%;
+    max-width: 242px;
+    font-family: var(--font-poppins);
     color: #8C8C8C;
-    font-size: 14px;
-    font-family: "Poppins", sans-serif;
+    font-size: 0.875rem;
     font-weight: 300;
+    line-height: 21px;
+}
+
+.logoHeader{
+    @media screen and (max-width: 768px){
+        width: 115px;
+        height: 115px;
+    }
+}
+.iconsHeader{
+    width: 30px;
+    height: 30px;
 }
 
