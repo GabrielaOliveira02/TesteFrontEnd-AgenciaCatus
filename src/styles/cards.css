@@ -1,0 +1,54 @@
+
+
+.card{
+    color: #484848;
+    max-width: 280px;
+    width: 100%;
+    height: 511px;
+    padding: 15px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.description{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 19.36px;
+}
+
+.sale{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.negrito{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.wiped{
+    font-weight: 300;
+    font-size: 1rem;
+}
+.price{
+    color: #404040;
+    font-size: 0.688rem;
+    text-decoration: line-through;
+}
+
+.addCar{
+    font-size: 1rem;
+    font-weight: 700;
+    width: 260px;
+    height: 50px;
+    background-color: #A4BEBF;
+}
+.allInfo{
+    display: flex;
+    gap: 2px;
+}
+
+.divInfoCardAll{
+    display: flex;
+    flex-direction: column;
+}

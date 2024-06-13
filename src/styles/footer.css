@@ -1,0 +1,104 @@
+footer{
+    background-color: #404040;
+    padding: 20px 15px;
+    @media screen and (max-width: 768px){
+        
+    }
+}
+
+.containerFooter{
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: 0 auto;
+    align-content: center;
+    flex-direction: row;
+    @media screen and (max-width: 768px){
+        height: auto;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+.titleFooter{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 19.36px;
+    color: #ffff;
+}
+
+.divSubTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.border{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 375px;
+    width: 100%;
+    height: 4px;
+}
+
+.borderBlue{
+    background-color: #32BCAD;
+    width: 100px;
+    height: 2px;
+}
+
+.borderWhite{
+    background-color:  #CFCFCF;
+    width: 275px;
+    height: 1px;
+}
+.divFooterItens{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    @media screen and (max-width: 768px){
+        gap: 20px;
+    }
+}
+
+.optionsUl{
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 21.5px;
+    color:#ffffffb6;
+}
+
+.optionsUlNegrito{
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 21.5px;
+    color:#ffffff;
+}
+
+.containerUlFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+
+.securityDiv{
+    display: flex;
+    gap: 6px;
+    margin-top: 6px;
+}
+
+.listSpan{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgPayment{
+    margin-top: 10px;
+}

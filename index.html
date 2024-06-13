@@ -3,11 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/style.css">
     <title>Catus</title>
 </head>
 <body>
-    
+    <header>
+        <div class="containerHeader">
+            <div class="logoHeader">
+                <img src="./src/assets/logo.svg" alt="Logo">
+            </div>
+            <nav>
+                <ul id="menuOptions" class="containerUl">
+                    <li><a class="optionsHeader" href="#">Loja</a></li>
+                    <li><a class="optionsHeader" href="#">Login</a></li>
+                    <li><a class="optionsHeader" href="#">Sobre</a></li>
+                    <li><a class="optionsHeader" href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="inputHeader">
+                <input class="inputSearch" type="text" placeholder="Digite aqui sua busca">
+                <button><img class="iconsHeader" src="./src/assets/Union.svg" alt="search"></button>
+                <button><img class="iconsHeader" src="./src/assets/cart.svg" alt="cart"></button>
+            </div>
+            <button class="btn-mobile" id="btn-mobile"><i style="font-size: 25px;" class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+    <main>
+        <section class="sectionImages">
+            <div class="divTwoImg">
+                <div class="divImg">
+                    <img src="./src/assets/banner 01.jpg" alt="um berço em um quarto">
+                </div>
+                <div class="divImg">
+                    <img src="./src/assets/banner 02.jpg" alt="uma mae brincando com o filho proximo alguns cestos">
+                </div>
+            </div>
+            <div class="divImgCenter">
+                <img src="./src/assets/banner 03.jpg" alt="uma mae com a filha em um carrinho de bebê na rua">
+            </div>
+            <div class="divTwoImg">
+                <div class="divImg">
+                    <img src="./src/assets/banner 04.jpg" alt="uma mae olhando as roupinhas do bebê">
+                </div>
+                <div class="divImg">
+                    <img src="./src/assets/banner 05.jpg" alt="os pais junto com o bebe sentados no sofá">
+                </div>
+            </div>
+        </section>
+        <section class="sectionProducts">
+            <div>
+                <h2 class="titleSectionProducts">Oportunidades para economizar</h2>
+                </div>
+                <div class="borderProducts">
+                    <div class="borderWhiteProduct"></div>
+                    <div class="borderBlueProduct"></div>
+                    <div class="borderWhiteProduct"></div>
+                </div>
+            <div class="containerCards">
+                <button id="left">
+                    <img class="arrow" src="./src/assets/Component 8.svg" alt="">
+                </button>
+                <ul class="listCards" id="listContainer">
+                </ul>
+                <button id="right">
+                    <img class="arrow" src="./src/assets/Component 9.svg" alt="">
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="containerFooter">
+            <div class="divFooterItens">
+                <div class="divSubTitle">
+                    <h3 class="titleFooter">Central de Atendimento</h3>
+                    <div class="border">
+                        <div class="borderBlue"></div>
+                        <div class="borderWhite"></div>
+                    </div>
+                </div>
+                <ul class="containerUlFooter">
+                    <li class="listSpan">
+                        <span class="optionsUl">Ajuda e suporte</span>
+                        <span class="optionsUl">Fale conosco</span>
+                        <span class="optionsUl">Faq</span>
+                    </li>
+                    <li>
+                        <span class="optionsUlNegrito">Whatsapp: (11) 99999-9999</span>
+                    </li>
+                    <li class="listSpan">
+                        <span class="optionsUlNegrito">Nossos horários</span>
+                        <span class="optionsUl">Segunda a sexta das 9h às 18h</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="divSubTitle">
+                <h3 class="titleFooter">Selos de Segurança</h3>
+                <div class="border">
+                    <div class="borderBlue"></div>
+                    <div class="borderWhite"></div>
+                </div>
+                <div class="securityDiv">
+                    <img src="./src/assets/Frame 129.svg" alt="Selos de Segurança">
+                    <img src="./src/assets/selo_lojaprotegida.svg" alt="">
+                </div>
+            </div>
+            <div class="divSubTitle">
+                <h3 class="titleFooter">Formas de Pagamento</h3>
+                <div class="border">
+                    <div class="borderBlue"></div>
+                    <div class="borderWhite"></div>
+                </div>
+                <img class="imgPayment" src="./src/assets/Frame 124.svg" alt="Formas de Pagamento">
+            </div>
+        </div>
+    </footer>
 </body>
+<script src="https://kit.fontawesome.com/c7a4d87005.js" crossorigin="anonymous"></script>
 <script type="module" src="./src/scripts/index.js"></script>
 </html>
